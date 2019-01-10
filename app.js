@@ -9,4 +9,4 @@ app.get("/",(req,res,next)=>{
     res.end(env);
 });
 
-app.listen(process.env.PORT, ()=>{console.log(`Listening on port ${process.env.PORT}`)});
+app.listen(process.env.PORT || 100, ()=>{console.log(`Listening on port ${process.env.PORT ||100}`)});
