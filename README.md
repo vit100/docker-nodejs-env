@@ -1,6 +1,6 @@
 # docker-nodejs-env
 
-Docker image of node server which replies with 
+Express based app to inspect incomint request and env variables.
 
 `{
   process.env,
