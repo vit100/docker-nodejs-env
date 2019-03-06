@@ -1,6 +1,6 @@
 # docker-nodejs-env
 
-Express based app to inspect incomint request and env variables.
+Express based app to inspect incoming request and host env variables.
 
 `{
   process.env,
@@ -26,8 +26,8 @@ npm run start
 ```
 
 ## What you can get from this image and info it returns
-Useful to for hosting inspection/testing.
-It returns incoming request + env variables
+Useful for hosting inspection/testing.
+Response returns incoming request + host env variables
 
 When you deploy this image into your host (azure for example), you can see what host injects into process.env and into request.
 
