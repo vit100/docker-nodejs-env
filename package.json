@@ -1,7 +1,12 @@
 {
   "name": "docker",
   "version": "1.0.0",
-  "description": "",
+  "description": "inbound http request inspector",
+  "homepage": "https://github.com/vit100/docker-nodejs-env",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vit100/docker-nodejs-env.git"
+  }
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
