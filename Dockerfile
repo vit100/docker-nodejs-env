@@ -1,11 +1,7 @@
-FROM vit100/nodejs
+FROM node:latest
 
 LABEL mainteainer="Vitaliy Markitanov"
 WORKDIR /app
-
- #COPY app.js app.js
- #COPY package.json package.json
- #COPY package-lock.json package-lock.json
 
 COPY ["app.js", "package.json", "./"]
 #ENV PORT=100
